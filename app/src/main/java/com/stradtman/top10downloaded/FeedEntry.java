@@ -7,7 +7,7 @@ public class FeedEntry {
     private String summary;
     private String imageUrl;
 
-    public FeedEntry(String name, String artist, String releaseDate, String summary, String imageUrl) {
+    public FeedEntry() {
         this.name = name;
         this.artist = artist;
         this.releaseDate = releaseDate;
